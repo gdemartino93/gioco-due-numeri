@@ -1,5 +1,6 @@
-let numerouno = prompt(parseInt("inserisci il numero1 da 1 a 100"));
-let numerodue = prompt(parseInt("inserisci il numero2 da 1 a 100"));
+let numerouno = parseInt(prompt("inserisci il numero1 da 1 a 100"));
+let numerodue = parseInt(prompt("inserisci il numero2 da 1 a 100"));
+
 // Utente inserisce due numeri
 
 let nrCasuale=Math.floor(Math.random() * 100) + 1 ;
